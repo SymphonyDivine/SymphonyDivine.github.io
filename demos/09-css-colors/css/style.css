@@ -6,3 +6,21 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+#first-paragraph {
+    color: #186ccd;
+}
+
+#second-paragraph {
+    background-color: red;
+    color: yellow;
+}
+
+
+#span-1 {
+    color: green;
+}
+
+#span-2 {
+    background-color: yellow;
+}
