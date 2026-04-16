@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#span-1 {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+#span-2 {
+    font-style: italic;
+}
+
+#paragraph-1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+#paragraph-2 {
+    font-size: 50px;
+}
+
+#span-3 {
+    font-size:100px;
+    text-decoration: underline;
+}
+
+#span-4 {
+    font-size: 8px;
+    text-decoration: overline;
+}
+
+#span-5 {
+    text-decoration: line-through;
+}
+
+#hyperlink {
+    text-decoration: none;
+    color: lime;
+}
+
+#image-2 {
+    /* Doesn't work */
+    text-align: center;
+}
+
+#container {
+    text-align: center;
+}
