@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color: blue;
+}
+
+.shadowed {
+    background-color: lightgray;
+    margin: 24px;
+    padding: 24px;
+    /* x-offset   y-offset   blur-radius   color */
+    box-shadow: 
+    4px 4px 8px black;
+}
+
+p {
+
+    /* Last Resort Font Defaults:  serif, san-serif, monospace, cursive, 
+    fantasy */
+    font-family:'Times New Roman', Times, serif;
+    color: purple;
+}
