@@ -7,62 +7,30 @@
     Good luck, and have fun!
 */
 
-.post-it-yellow {
+.post-it {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    font-family:'Times New Roman', Times, serif;
+    margin: 24px;
+    padding: 24px;
+    vertical-align: top;
+    box-shadow: 4px 4px 8px black;
+}
+
+.yellow {
     background-color: rgb(255, 235, 120);
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    font-family:'Times New Roman', Times, serif;
-    margin: 24px;
-    padding: 24px;
-    vertical-align: top;
-    box-shadow: 4px 4px 8px black;
 }
 
-.post-it-blue {
+.blue {
     background-color: rgb(179, 237, 255);
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    font-family:'Times New Roman', Times, serif;
-    margin: 24px;
-    padding: 24px;
-    vertical-align: top;
-    box-shadow: 4px 4px 8px black;
 }
 
-.post-it-red {
+.red {
     background-color: rgb(255, 167, 167);
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    font-family:'Times New Roman', Times, serif;
-    margin: 24px;
-    padding: 24px;
-    vertical-align: top;
-    box-shadow: 4px 4px 8px black;
 }
 
-.post-it-white {
+.white {
     background-color: white;
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    font-family:'Times New Roman', Times, serif;
-    margin: 24px;
-    padding: 24px;
-    vertical-align: top;
-    box-shadow: 4px 4px 8px black;
 }
 
-.background-image {
-    background-color: white;
-    display: inline-block;
-    width: 250px;
-    height: 250px;
-    font-family:'Times New Roman', Times, serif;
-    margin: 24px;
-    padding: 24px;
-    vertical-align: top;
-    box-shadow: 4px 4px 8px black;
-}
