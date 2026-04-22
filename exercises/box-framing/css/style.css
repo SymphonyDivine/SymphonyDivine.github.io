@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.frame1 {
+    width: 500px;
+    border: 25px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 50px 50px 50px 150px;
+}
+
+.frame2 {
+    width: 560px;
+    border: 25px solid black;
+    border-radius: 4px;
+    padding: 15px;
+    margin: 50px 50px 75px 50px;
+}
+
+.frame3 {
+    width: 300px;
+    border: 20px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 275px 50px;
+}
