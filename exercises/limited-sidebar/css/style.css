@@ -7,6 +7,11 @@ body {
     font-family: sans-serif;
 }
 
+h4 {
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+}
+
 #sidebar {
     background-color: #333333;
     color: white;
@@ -15,16 +20,19 @@ body {
     padding: 24px;
 }
 
-.chapter {
+#sidebar .chapter {
     font-style: bold;
     font-size: 24px;
+    margin: 15px 0px 15px;
 }
 
-.edit {
+#sidebar .edit {
     color: orange;
     font-style: italic;
+    margin: 10px;
 }
 
-.chapter.edit {
+#sidebar .chapter.edit {
     color: red;
+    margin: 15px 0px 15px;
 }
