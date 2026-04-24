@@ -58,3 +58,11 @@ body {
 li {
     padding: 5px;
 }
+
+ul {
+    background-color: white;
+    padding: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
