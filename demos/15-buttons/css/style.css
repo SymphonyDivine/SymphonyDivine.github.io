@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.simple{
+    border: 2px solid black;
+    padding: 8px;
+    background-color: lightgrey;
+    border-radius: 8px;
+    margin: 24px;
+}
+
+.background {
+    background-color: navy;
+    color: white;
+    padding: 24px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px;
+}
+
+.border {
+    border: 3px solid crimson;
+    color: crimson;
+    padding: 24px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 24px;
+
+    /* optional */
+    min-width: 250px;
+    text-align: center;
+}
+
+.wide {
+    display: block;
+    text-align: center;
+}
+
+#section-3 {
+    width: 400px;
+}

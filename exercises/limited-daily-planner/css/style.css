@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#morning {
+    border: 5px solid hotpink;
+    background-color: pink;
+    margin: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#afternoon {
+    border: 5px solid darkblue;
+    background-color: lightblue;
+    margin: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#evening {
+    border: 5px solid darkgreen;
+    background-color: lightgreen;
+    margin: 24px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.completed {
+    text-decoration: line-through; 
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+.important.completed {
+    background-color: yellow;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    border: 2px solid rgb(101, 66, 253);
+    padding: 8px;
+    background-color: rgb(212, 187, 233);
+    border-radius: 8px;
+    margin: 5px;
+}
+
+li {
+    padding: 5px;
+}
