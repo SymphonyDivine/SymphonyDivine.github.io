@@ -5,20 +5,61 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: rgb(235, 250, 255);
 }
 
 .center-single-column {
-    background-color: lightblue;
+    background-color: white;
+    border: 5px solid black;
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 10px */
+    padding: 25px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+h3 {
+    font-style: italic;
 }
 
 img {
-    width: 1000px
+    width: 950px;
 }
 
-span {
+.pictures {
+    width: 300px;
+}
+
+.bold {
     font-weight: bold;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
 }
