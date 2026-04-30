@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.center-single-column {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#side-by-side-container {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+#side-by-side-container img {
+    width: 500px;
+}
+
+.card {
+    border: 5px solid #cf9dfc;
+    padding: 36px;
+    text-align: center;
+    margin: 36px 0px;
+    flex: 1;
+}
+
+.card img {
+    max-width: 250px;
+}
+
+#three-cards {
+    display: flex;
+    gap: 36px;
+}
