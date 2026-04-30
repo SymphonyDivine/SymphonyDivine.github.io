@@ -24,10 +24,10 @@ body {
 }
 
 .card {
-    border: 5px solid #cf9dfc;
-    padding: 36px;
+    border: 0.5px solid rgb(238, 238, 238);
+    padding: 20px;
     text-align: center;
-    margin: 36px 0px;
+    margin: 10px 0px;
     flex: 1;
 }
 
@@ -37,5 +37,22 @@ body {
 
 #three-cards {
     display: flex;
-    gap: 36px;
+    gap: 20px;
+}
+
+#text-center {
+    text-align: center;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
 }
