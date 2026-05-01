@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 204, 92),
+        rgb(255, 255, 255)
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    font-size: 18px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#navbar .cta-button {
+    background-color: rgb(255, 166, 0);
+    color: black;
+    border-radius: 36px;
+    padding: 10px 14px;
+    font-size: 15px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+    margin-left: 12px;
+}
+
+#page-title {
+    text-align: center;
+}
