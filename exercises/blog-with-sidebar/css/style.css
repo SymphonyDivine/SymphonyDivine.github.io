@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#two-columns {
+    display: flex;
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sidebar-content {
+    background-color: white;
+    width: 275px;
+    order: 2;
+    padding: 18px;
+}
+
+#main-content {
+    background-color: white;
+    border: 5px solid black;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+
+    flex: 1;
+    order: 1;
+    padding: 20px;
+}
+
+#sidebar-content h2 {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    margin: 0px;
+}
+
+#sidebar-content ul {
+    background-color: #efefef;
+    margin: 0px 0px 36px;
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+
+#sidebar-content a {
+    color: black;
+    text-decoration: none;
+}
+
+#sidebar-content li {
+    padding: 13px 0px;
+    border-bottom: 1px solid black;
+}
+
+/* to target a certain part */
+
+/* pseudo-class */
+#sidebar-content li:last-child {
+    border-bottom: 0px;
+}
+
+/* extra */
+#sidebar-content li:hover {
+    background-color: white;
+    font-weight: bold;
+}
+
+#main-content h3 {
+    font-style: italic;
+}
+
+img {
+    width: 700px;
+}
+
+.pictures {
+    width: 300px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+    background-color: rgb(0, 0, 0);
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
