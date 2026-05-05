@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    display: flex;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+/* Main Column 1 */
+#thumbnail-column {
+    /* background-color: lightblue; */
+    min-height: 400px;
+    width: 110px;
+    padding: 15px 5px 5px 5px;
+}
+
+/* Main Column 2 */
+#featured-image-column {
+    /* background-color: aquamarine; */
+    flex: 1;
+    padding: 15px;
+}
+
+/* Main Column 3 */
+#product-info-column {
+    /* background-color: lightsalmon; */
+    width: 400px;
+    padding: 15px 15px 35px;
+    
+}
+
+#seller-info {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#extra-seller-info {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#extra-seller-info a {
+    color: black;
+    padding: 7px;
+}
+
+#pricing-info {
+    border-bottom: 1px solid black;
+}
+
+#condition-info {
+    display: flex;
+    margin-top: 25px;
+}
+
+#all-buttons {
+    text-align: center;
+    display: inline-block;
+}
+
+#button-1 a {
+    color: white; /* pick whatever color you like */
+    display: inline-block;
+    margin: 20px 2px 2px 0px; /* optional, but often useful */
+    margin-left: auto;
+    text-decoration: none;
+}
+
+#buttons-2 a {
+    text-decoration: none;
+    color: black; /* pick whatever color you like */
+    display: inline-block;
+    margin: 7px 2px 2px 0px; /* optional, but often useful */
+    font-size: 12px
+}
+
+#buttons-3 a {
+    text-decoration: none;
+    color: black; /* pick whatever color you like */
+    display: inline-block;
+    margin: 7px 2px 2px 0px; /* optional, but often useful */
+    font-size: 12px
+}
+
+.solid-button {
+    background-color: navy;
+    color: white;
+    padding: 14px 140px 12px;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.border-button1 {
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    padding: 14px 145px 12px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+.border-button2 {
+    display: flex;
+    border: 1px solid black;
+    background-color: white;
+    padding: 14px 134px 12px;
+    border-radius: 50px;
+    font-weight: bold;
+}
+
+#thumbnail-column img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #efefef
+}
+
+#featured-image-column img {
+    width: 100%;
+    padding: 5px;
+}
+
+.gray {
+    color: rgb(114, 114, 114);
+}
+
+.black {
+    color: black;
+}
+
+.learn-more {
+    padding: 7px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.condition {
+    margin-right: 20px;
+}
+
+.font-size {
+    font-size: 15px
+}
+
+.font-size-2 {
+    font-size: 10px
+}
