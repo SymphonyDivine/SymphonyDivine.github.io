@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.main-single-column {
+    /* background-color: lightblue; */
+    background-image: url("../images/feild\ 2.1.jpg");
+    height: 1000px;
+    background-size: cover;
+    background-position: center center;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#title {
+    text-align: center;
+    padding: 30px 0px 50px 0px;
+    font-size: 20px;
+}
+
+#team-info {
+    display: flex;
+    justify-content: center;
+}
+
+#team-info h2 {
+    text-align: center;
+}
+
+#team-info h4 {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 21px;
+}
+
+#buttons    {
+    display: flex;
+    justify-content: center;
+}
+
+#cta {
+    margin: 15px 25px 15px 25px;
+}
+
+#cta a {
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 15px;
+    background-color: rgb(197, 0, 0);
+    border-radius: 25px;
+    margin: 24px;
+    font-weight: bold;
+}
+
+#questions {
+    text-align: center;
+    margin: 45px 0px 65px 0px;
+    font-weight: bold;
+}
+
+.vs h1 {
+    margin: 50px;
+    font-size: 100px;
+}
+
+.red {
+    color: rgb(189, 0, 0);
+}
+
+.underline {
+    text-decoration: underline;
+}
