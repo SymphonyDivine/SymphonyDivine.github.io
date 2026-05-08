@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255, 244, 230);
+}
+
+/* Navbar */
+#navbar {
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 233, 204),
+        rgb(255, 241, 225)
+    );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+    font-size: 18px;
+}
+
+#navbar #logo-container {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 36px;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 54px;
+    margin-left: 24px;
+}
+
+/* Hero */
+#centered-hero {
+    background-image: url("../images/tools1.jpg");
+    border: 5px solid black;
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10%;
+}
+
+#centered-hero .hero-content {
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.466);
+    padding: 22px 62px;
+    border-radius: 100px;
+}
+
+.hero-content h1 {
+    font-size: 52px;
+    display: flex;
+    max-width: 300px;
+}
+
+/* Gallery Layout */
+#main-layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+#main-layout h1 {
+    font-size: 40px;
+}
+
+#main-layout h3 {
+    margin-bottom: 45px;
+}
+
+.horizontal-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.horizontal-gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+#navbar-sub a:hover {
+    background-color: rgb(255, 214, 126);
+    border-radius: 100px;
+}
