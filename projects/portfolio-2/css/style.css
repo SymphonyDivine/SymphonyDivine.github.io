@@ -154,7 +154,7 @@ body {
 @media screen and (max-width: 1625px) {
 
     body {
-        background-color: skyblue;
+        background-color: black;
     }
 
     .card {
@@ -173,7 +173,7 @@ body {
 @media screen and (max-width: 1325px) {
 
     body {
-        background-color: red;
+        background-color: black;
     }
 
     .card {
@@ -189,16 +189,57 @@ body {
     }
 
     .card .cta-button {
-    background-color: black;
-    color: white;
-    border-radius: 36px;
-    padding: 10px 20px;
-    font-size: 10px;
-    font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 14px;
-    margin-left: 14px;
-    text-decoration: none;
+        background-color: black;
+        color: white;
+        border-radius: 36px;
+        padding: 10px 20px;
+        font-size: 10px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;
+        margin-right: 14px;
+        margin-left: 14px;
+        text-decoration: none;
+    }
 }
+
+@media screen and (max-width: 928px) {
+
+    body {
+        background-color: black;
+    }
+
+    .card {
+        border-radius: 16px;
+        padding: 16px;
+        margin: 16px 50px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 22px;
+    }
+
+    .card .cta-button {
+        background-color: black;
+        color: white;
+        border-radius: 36px;
+        padding: 10px 10px;
+        font-size: 10px;
+        font-weight: bold;
+        min-width: 150px;
+        text-align: center;
+        margin-right: 5px;
+        margin-left: 5px;
+        text-decoration: none;
+    }
+
+    #navbar a {
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+        font-size: 15px;
+        margin-right: 50px;
+    }
 }
