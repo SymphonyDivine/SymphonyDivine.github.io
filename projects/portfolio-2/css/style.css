@@ -5,15 +5,15 @@
 body {
     margin: 0px;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(255, 244, 230);
+    background-color: black;
 }
 
 /* Navbar */
 #navbar {
     background: linear-gradient(
         to bottom,
-        rgb(255, 233, 204),
-        rgb(255, 241, 225)
+        rgb(107, 106, 105),
+        rgb(0, 0, 0)
     );
     display: flex;
     justify-content: space-between;
@@ -22,10 +22,10 @@ body {
 
 #navbar a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
     padding: 24px;
     font-size: 18px;
-    margin-right: 50px;
+    margin-right: 75px;
 }
 
 #navbar #logo-container {
@@ -37,7 +37,7 @@ body {
 /* Hero */
 #centered-hero {
     background-image: url("../images/Hero-1.jpg");
-    border: 5px solid black;
+    border: 5px solid white;
     height: 80vh;
     background-size: cover;
     background-position: center center;
@@ -61,12 +61,6 @@ body {
     max-width: 500px;
 }
 
-/* .hero-content a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 18px;
-} */
-
 /* Gallery Layout */
 #main-layout {
     max-width: 800px;
@@ -75,24 +69,24 @@ body {
 }
 
 #main-layout h1 {
+    color: white;
     font-size: 40px;
     margin-top: 100px;
-}
-
-#main-layout h3 {
-    margin-bottom: 45px;
+    margin-bottom: 50px;
 }
 
 .horizontal-gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
+    /* border: 2px solid white; */
 }
 
 .horizontal-gallery img {
     height: 250px;
     flex: 1;
     object-fit: cover;
+    border: 2px solid white;
 }
 
 #navbar-sub a:hover {
@@ -101,47 +95,31 @@ body {
 }
 
 #single-column {
-    max-width: 1000px;
-    margin: 0px auto;
+    margin: 30px auto;
+    align-items: center;
 }
 
 .card {
-    border: 3px solid #000000;
-    padding: 26px;
+    /* border: 3px solid white; */
+    background-color: white;
+    border-radius: 16px;
+    padding: 16px;
     text-align: center;
-    margin: 26px 0px;
+    margin: 26px 100px;
     flex: 1;
 }
 
 .card h3 {
     font-size: 24px;
     margin: 0px;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
 }
-
-/* .card a {
-    font-size: 18px;
-    margin: 24px 0px 0px;
-} */
 
 #card-container {
     display: flex;
     gap: 36px;
+    padding: 30px;
 }
-
-/* #card .cta-button {
-    background-color: white;
-    border: 1px solid rgb(0, 0, 0);
-    border-radius: 36px;
-    padding: 10px 10px;
-    font-size: 18px;
-    font-weight: bold;
-    min-width: 150px;
-    text-align: center;
-    margin-right: 54px;
-    margin-left: 24px;
-    text-decoration: none;
-} */
 
 .cta-button {
     background-color: black;
@@ -161,14 +139,66 @@ body {
 .card .cta-button {
     background-color: black;
     color: white;
-    border: 1px solid black;
     border-radius: 36px;
-    padding: 10px 14px;
-    font-size: 14px;
+    padding: 10px 64px;
+    font-size: 16px;
     font-weight: bold;
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
     margin-left: 24px;
     text-decoration: none;
+}
+
+/* Mobile Breakpoint */
+@media screen and (max-width: 1625px) {
+
+    body {
+        background-color: skyblue;
+    }
+
+    .card {
+        border-radius: 16px;
+        padding: 16px;
+        margin: 16px 50px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 1325px) {
+
+    body {
+        background-color: red;
+    }
+
+    .card {
+        border-radius: 16px;
+        padding: 16px;
+        margin: 16px 50px;
+    }
+
+    .card h3 {
+        font-size: 14px;
+        margin: 0px;
+        margin-bottom: 22px;
+    }
+
+    .card .cta-button {
+    background-color: black;
+    color: white;
+    border-radius: 36px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 14px;
+    margin-left: 14px;
+    text-decoration: none;
+}
 }
